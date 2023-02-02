@@ -9,6 +9,9 @@
       "path": "packages/avatar"
     },
     {
+      "path": "packages/breadcrumb"
+    },
+    {
       "path": "packages/button"
     },
     {
