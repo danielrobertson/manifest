@@ -5,15 +5,9 @@ describe('breadcrumb', () => {
   it('should render crumb links', () => {
     render(
       <Breadcrumb>
-        <BreadcrumbItem>
-          <a href="#home">Home</a>
-        </BreadcrumbItem>
-        <BreadcrumbItem>
-          <a href="#catalog">Catalog</a>
-        </BreadcrumbItem>
-        <BreadcrumbItem>
-          <a href="#products">Products</a>
-        </BreadcrumbItem>
+        <BreadcrumbItem href="#home">Home</BreadcrumbItem>
+        <BreadcrumbItem href="#catalog">Catalog</BreadcrumbItem>
+        <BreadcrumbItem href="#products">Products</BreadcrumbItem>
       </Breadcrumb>,
     );
 

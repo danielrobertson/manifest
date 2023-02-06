@@ -3,10 +3,10 @@ import { styled } from '@project44-manifest/react-styles';
 export const StyledBreadcrumbItem = styled('li', {
   d: 'flex',
   alignItems: 'center',
-  typography: '$subtext',
   color: '$text-secondary',
 
   '& a': {
+    typography: '$subtext',
     color: 'inherit',
     textDecoration: 'none',
   },

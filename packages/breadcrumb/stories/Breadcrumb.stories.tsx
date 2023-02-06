@@ -7,40 +7,20 @@ export default {
 
 export const Default = () => (
   <Breadcrumb>
-    <BreadcrumbItem>
-      <a href="#home">Home</a>
-    </BreadcrumbItem>
-    <BreadcrumbItem>
-      <a href="#catalog">Catalog</a>
-    </BreadcrumbItem>
-    <BreadcrumbItem>
-      <a href="#products">Products</a>
-    </BreadcrumbItem>
+    <BreadcrumbItem href="#home">Home</BreadcrumbItem>
+    <BreadcrumbItem href="#catalog">Catalog</BreadcrumbItem>
+    <BreadcrumbItem href="#products">Products</BreadcrumbItem>
   </Breadcrumb>
 );
 
 export const Collapsed = () => (
   <Breadcrumb>
-    <BreadcrumbItem>
-      <a href="#home">Home</a>
-    </BreadcrumbItem>
-    <BreadcrumbItem>
-      <a href="#catalog">Catalog</a>
-    </BreadcrumbItem>
-    <BreadcrumbItem>
-      <a href="#product">Product</a>
-    </BreadcrumbItem>
-    <BreadcrumbItem>
-      <a href="#variants">Variants</a>
-    </BreadcrumbItem>
-    <BreadcrumbItem>
-      <a href="#variant">Variant</a>
-    </BreadcrumbItem>
-    <BreadcrumbItem>
-      <a href="#customizations">Customizations</a>
-    </BreadcrumbItem>
-    <BreadcrumbItem>
-      <a href="#sizes">Sizes</a>
-    </BreadcrumbItem>
+    <BreadcrumbItem href="#home">Home</BreadcrumbItem>
+    <BreadcrumbItem href="#catalog">Catalog</BreadcrumbItem>
+    <BreadcrumbItem href="#product">Product</BreadcrumbItem>
+    <BreadcrumbItem href="#variants">Variants</BreadcrumbItem>
+    <BreadcrumbItem href="#variant">Variant</BreadcrumbItem>
+    <BreadcrumbItem href="#customizations">Customizations</BreadcrumbItem>
+    <BreadcrumbItem href="#sizes">Sizes</BreadcrumbItem>
   </Breadcrumb>
 );

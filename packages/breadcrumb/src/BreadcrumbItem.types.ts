@@ -7,4 +7,9 @@ export interface BreadcrumbItemProps {
    * Theme aware style object
    */
   css?: CSS;
+
+  /**
+   * Breadcrumb item link href
+   */
+  href: string;
 }
