@@ -21,5 +21,7 @@ dependsOn:
     scope: 'production'
   - id: 'types'
     scope: 'development'
+  - id: 'use-merged-ref'
+    scope: 'production'
   - id: 'utils'
     scope: 'production'

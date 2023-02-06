@@ -1,3 +1,4 @@
+import React from 'react';
 import { Breadcrumb, BreadcrumbItem } from '../src';
 
 export default {
@@ -12,6 +13,17 @@ export const Default = () => (
     <BreadcrumbItem href="#products">Products</BreadcrumbItem>
   </Breadcrumb>
 );
+
+export const HasRef = () => {
+  const ref = React.useRef<HTMLDivElement>(null);
+  return (
+    <Breadcrumb ref={ref}>
+      <BreadcrumbItem href="#home">Home</BreadcrumbItem>
+      <BreadcrumbItem href="#catalog">Catalog</BreadcrumbItem>
+      <BreadcrumbItem href="#products">Products</BreadcrumbItem>
+    </Breadcrumb>
+  );
+};
 
 export const Collapsed = () => (
   <Breadcrumb>
